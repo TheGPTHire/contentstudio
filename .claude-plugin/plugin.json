@@ -1,0 +1,10 @@
+{
+  "name": "content-studio",
+  "version": "0.1.0",
+  "description": "AI marketing team for the Suhaib AI Automation YouTube channel. A team of agents that learns your brand voice, hunts outlier videos, dissects winning intros, and packages titles/thumbnails/scripts in your style — delivered daily to Notion + email.",
+  "author": {
+    "name": "Suhaib",
+    "url": "https://www.youtube.com/@SuhaibAIAutomation"
+  },
+  "keywords": ["youtube", "marketing", "content", "outlier", "thumbnail", "brand-voice"]
+}

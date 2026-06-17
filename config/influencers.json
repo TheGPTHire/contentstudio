@@ -1,0 +1,20 @@
+{
+  "_comment": "The channels Trend Scout watches every day. Add the AI-niche creators you follow. Handle or full URL both work. tier 'self' = your channel (excluded from scouting); 'peer' = direct comparison creators.",
+  "channels": [
+    { "handle": "@SuhaibAIAutomation", "tier": "self", "note": "your own channel" },
+    { "handle": "@ericnowoslawski", "tier": "peer" },
+    { "handle": "@BlueprintGTM", "tier": "peer" },
+    { "handle": "@MichLieben", "tier": "peer" },
+    { "handle": "@Tim-Yakubson", "tier": "peer" },
+    { "handle": "@michaelsaruggia", "tier": "peer" },
+    { "handle": "@benjaminaaronreed", "tier": "peer" }
+  ],
+  "search_terms": [
+    "ai agency",
+    "ai automation business",
+    "ai agents tutorial",
+    "n8n automation",
+    "how to use ai",
+    "ai news"
+  ]
+}

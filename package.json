@@ -1,0 +1,14 @@
+{
+  "name": "content-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI marketing team for the Suhaib AI Automation YouTube channel.",
+  "scripts": {
+    "scout": "node skills/trend-scout/scripts/fetch_youtube_outliers.mjs",
+    "brand": "node skills/brand-analyst/scripts/fetch_my_channel.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

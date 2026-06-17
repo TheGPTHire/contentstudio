@@ -1,0 +1,7 @@
+.env
+node_modules/
+data/profiles/raw_channel.json
+data/profiles/transcripts.json
+data/profiles/_transcript_full.txt
+data/daily/
+assets/photos/

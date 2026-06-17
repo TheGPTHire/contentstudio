@@ -1,0 +1,14 @@
+{
+  "_comment": "Where the Reporter delivers the daily output. notionTarget is filled in after the user points to their existing Notion DB/page. email is the digest recipient.",
+  "notionTarget": {
+    "type": "data_source",
+    "id": "c40c2d4b-89e4-47b6-a558-8fad6909d900",
+    "databaseUrl": "https://app.notion.com/p/44eba2ed170f469abc63f5ecc5632d8a",
+    "title": "Content Studio — Outlier Research",
+    "parent": "GTMSpear OS"
+  },
+  "email": {
+    "to": "ibrxhimhxssain@gmail.com",
+    "subjectPrefix": "[Content Studio] Daily Outliers"
+  }
+}
