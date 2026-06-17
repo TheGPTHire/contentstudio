@@ -17,9 +17,10 @@ const topN = parseInt(arg('top', '12'), 10);
 const today = new Date().toISOString().slice(0, 10);
 
 const cfg = {
-  minMultiplier: Number(process.env.OUTLIER_MIN_MULTIPLIER || 5),
-  lookbackDays: Number(process.env.OUTLIER_LOOKBACK_DAYS || 30),
-  smallChannelMaxSubs: Number(process.env.SMALL_CHANNEL_MAX_SUBS || 100000),
+  minMultiplier: Number(process.env.OUTLIER_MIN_MULTIPLIER || 2.5),
+  lookbackDays: Number(process.env.OUTLIER_LOOKBACK_DAYS || 45),
+  smallChannelMaxSubs: Number(process.env.SMALL_CHANNEL_MAX_SUBS || 50000),
+  minViews: Number(process.env.OUTLIER_MIN_VIEWS || 3000),
 };
 
 const toUrl = (h) => (h.startsWith('http') ? h : `https://www.youtube.com/${h}`);
