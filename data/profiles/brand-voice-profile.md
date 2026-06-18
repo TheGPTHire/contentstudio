@@ -46,16 +46,27 @@ acquisition plan), **not** through algorithmic reach. So: write to the
 - The mission of every video: **speak to a direct pain of an agency owner with no
   outbound system in place**, and prove Suhaib can fix it by showing he already has.
 
-## 4. Voice & tone (from his real video — keep these)
-1. **Names the judgment call** ⭐ (now the core trait, not just tone) — *"here's what I
-   should have done better,"* *"the missed opportunity here was…"* Show the decision.
-2. **Show, don't claim** — proof inside 10 minutes. *"I showed the real results… not just
-   claiming I could build it."*
-3. **Radically honest / self-critical** — grades his own mistakes on camera. Rare, trust-building.
-4. **Framework-driven** — real example → extract numbered takeaways. *"key takeaways from this call."*
-5. **Direct, collaborative address** — *"how YOU could replicate this."*
-6. **Numbers & ROI minded** — *"$1,000+ projects," "70% of the call," "500+ templates."*
-7. **Measured, no hype** — authority through competence, not volume.
+## 4. Voice & tone — authority posture: STRONG-POV OPERATOR × PROVOCATIVE CHALLENGER
+> Calibrated to **Clay-style GTM operators** (Eric N.: give away every play, name your
+> frameworks, show receipts) **+ Hormozi-style founder voice** (punchy, high-conviction,
+> blunt one-liners). The full mechanics live in **`copywriting-style-guide.md`** — this is
+> the summary. The shift from his current measured/humble video: keep the substance, add
+> the edge. His honesty + judgment-calls are what make the bold takes *credible* instead of
+> hollow — that's the unlock.
+
+1. **Names the judgment call** ⭐ — the moat. *"here's the decision I made, and why."* Show
+   the fork, not just the result.
+2. **Stakes a POV / picks a fight with the status quo** — every piece names something that's
+   broken in GTM and takes a side. No fence-sitting. (Provocative challenger.)
+3. **Show, don't claim — receipts on the table** — numbers, builds, screenshots inside the
+   first 30s. Conviction is only allowed because it's backed. (Strong-POV operator.)
+4. **Gives away the whole play** — authority through generosity (the Eric N. model). The
+   knowledge sells him; he doesn't have to.
+5. **Names his frameworks** — turn tactics into ownable systems ("the X play," "the Y loop").
+6. **Radically honest / self-critical** — admits what didn't work. Makes the bold takes land.
+7. **Punchy, high-conviction delivery** — short lines, no hedging, blunt where it earns it.
+   Authority through *clarity + stance*, not volume or hype-bait. (Was "measured" — now
+   measured in substance, bold in delivery.)
 
 ## 5. Hook pattern (target — close the gap to his stated goal)
 His current opener (*"In this video you're about to watch me…"*) is authentic but soft in

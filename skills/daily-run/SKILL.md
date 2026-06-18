@@ -8,6 +8,10 @@ description: Runs the full Content Studio daily pipeline end to end — Trend Sc
 Run the whole team in order for today. Work from the project root
 `C:\Users\Arsha\ContentStudio`. Stop and report if a step yields nothing usable.
 
+**All writing (titles, hooks, scripts) is governed by `data/profiles/brand-voice-profile.md`
+(WHO/WHAT) + `data/profiles/copywriting-style-guide.md` (HOW — strong-POV operator ×
+provocative challenger). Every script passes the Voice Scorecard quality gate (≥8/12).**
+
 ## Pipeline
 
 1. **Trend Scout** — scrape + score outliers:

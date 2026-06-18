@@ -28,6 +28,7 @@ For each packaged item, create one Notion page (row) in that database with prope
 - **Intro — Suhaib** (the rewritten hook; full script in page body if present)
 - **Thumbnail concept** (Column B, tagged for Thumbnail Studio)
 - **Recommend** (yes/maybe/skip) + **Why**
+- **Voice Score** (the Script Writer's X/12 scorecard result, if the item has a script)
 - Put the thumbnail image URL in the page so the creator sees the reference.
 If the existing DB lacks a property, adapt to what's there (don't fail) and note the
 mismatch in the email so the user can add columns.

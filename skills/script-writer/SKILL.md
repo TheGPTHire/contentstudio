@@ -9,7 +9,8 @@ You write the **full intro script** (first ~30-45 seconds, ~90-130 words spoken)
 items Packaging marked `recommend: yes`. This is what Suhaib reads on camera.
 
 ## Input
-`data/daily/<date>_packaged.json` + `data/profiles/brand-voice-profile.md`.
+`data/daily/<date>_packaged.json` + `data/profiles/brand-voice-profile.md` +
+**`data/profiles/copywriting-style-guide.md`** (the HOW — read it; it governs every line).
 
 ## The required hook formula (Suhaib's, locked)
 Write each intro in exactly this arc:
@@ -24,12 +25,21 @@ Write each intro in exactly this arc:
 - Somewhere in the intro, plant ONE explicit **judgment call** ("here's the decision I
   made, and why") — this is the brand's moat.
 
-## Voice rules (from the profile)
-- Measured, no hype-bait, no fake urgency.
-- Show-don't-claim: prefer "here's the actual call/workflow/number" over adjectives.
-- Direct address ("you"), collaborative.
-- Use his phrases naturally where they fit ("here's the judgment call," "the missed
-  opportunity here," "let's actually get into it") — don't force them.
+## Voice rules (posture: strong-POV operator × provocative challenger)
+Follow `copywriting-style-guide.md` exactly. The essentials:
+- **Take a side** in the hook; name what's broken in GTM. No fence-sitting.
+- **Receipts early** — a specific number/build/artifact in the first 30s. Conviction only
+  where it's backed.
+- **Punchy delivery** — one idea per line, short-short-long rhythm, cut every hedge word
+  (see the kill list). Blunt where it earns it; never hype-bait without substance.
+- **Surface the judgment call** — the decision-with-reasoning (the moat).
+- Direct address to ONE recruitment-agency owner ("If you run a recruitment agency…"),
+  never "Hey guys."
+
+## Quality gate — apply the Voice Scorecard (copywriting-style-guide §10)
+After drafting, score the intro 0-2 on each axis (POV, receipts, judgment call, specificity,
+no-hedging, ICP fit). If under **8/12**, rewrite the weakest axis and re-score before saving.
+Record the final score + weakest axis next to each script.
 
 ## Output
 For each `yes` item, write to `data/daily/<date>_scripts.md`:
@@ -37,6 +47,7 @@ For each `yes` item, write to `data/daily/<date>_scripts.md`:
 - The full intro script, with light delivery notes in (parentheses) — e.g. (show call
   recording), (cut to numbers).
 - A 1-line note of which judgment call it surfaces.
+- The **Voice Scorecard** result: `X/12 (weakest: <axis>)`.
 
 Then hand off to **Reporter**.
 

@@ -14,7 +14,9 @@ columns, always:
 
 ## Input
 `data/daily/<date>_dissected.json` (from Intro Dissector) +
-`data/profiles/brand-voice-profile.md` (the locked foundation).
+`data/profiles/brand-voice-profile.md` (the WHO/WHAT) +
+**`data/profiles/copywriting-style-guide.md`** (the HOW — titles & hooks must follow it:
+strong-POV operator × provocative challenger, title swipe patterns §6, hedge-word kill list §8).
 
 ## For each item, produce both columns
 
@@ -46,7 +48,9 @@ Keep the top items (by Dissector rank). Then hand off to **Script Writer** (for 
 ## Rules
 - Column A is sacred — never alter the creator's actual title/formula. The creator asked
   for *both* the exact reference AND the recommendation; don't collapse them.
-- Column B must obey the profile's Do/Don't (no hype-bait, must surface a judgment call,
-  no generic AI-news framing).
+- Column B must obey the copywriting guide: take a POV, name what's broken, surface a
+  judgment call, receipts where possible, zero hedge words, no hype-bait, no generic
+  AI-news framing. Quick-score each Column B title/hook against the Voice Scorecard (§10);
+  if the best title scores under 8/12, rewrite before saving.
 - Titles: short and concise, but must echo the niche's current language so they're
   searchable/clickable.
