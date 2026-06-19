@@ -38,6 +38,22 @@ If the scrape returns nothing, check `APIFY_TOKEN` and the watchlist, then fall
 back to `WebSearch` for trending titles and note that view-based scoring was
 skipped.
 
+## Step 2b — Discovery mode (small creators NOT on the watchlist)
+
+To catch brand-new small creators popping off, also run:
+```
+node skills/trend-scout/scripts/discover_youtube_outliers.mjs --results 15 --deep 6 --top 8
+```
+This searches the niche `search_terms` in `config/influencers.json`, finds SMALL channels
+(under `DISCOVERY_MAX_SUBS`) not already on your watchlist, deep-scans the most promising
+ones, and keeps videos clearing a deliberately LOW bar (`DISCOVERY_MIN_MULTIPLIER`, default
+1.3×). Writes `data/daily/<date>_discovered_outliers.json` (each item tagged
+`source: "discovered"` with a `vsRatio`). Use long-tail, on-lane search terms — broad terms
+(“ai news”) only return mega-channels that get filtered out.
+
+> ⚠️ Cost: discovery roughly doubles Apify usage (search + per-channel deep-scans). On the
+> free $5/mo plan, consider running discovery less often than the daily watchlist scout.
+
 ## Step 3 — Hand off
 
 Tell the user how many outliers you found and the top 3 by multiplier (with the

@@ -14,16 +14,24 @@ provocative challenger). Every script passes the Voice Scorecard quality gate (�
 
 ## Pipeline
 
-1. **Trend Scout** — scrape + score outliers:
+1. **Trend Scout — watchlist:** scrape + score outliers from enlisted channels:
    ```
    node skills/trend-scout/scripts/fetch_youtube_outliers.mjs
    ```
-   Produces `data/daily/<date>_youtube_outliers.json`. If 0 outliers, lower
-   `OUTLIER_MIN_MULTIPLIER` in `.env` or widen `OUTLIER_LOOKBACK_DAYS`, retry once, then
-   report a thin day and stop.
+   Produces `data/daily/<date>_youtube_outliers.json` (tag these `source: watchlist`). If 0
+   outliers, lower `OUTLIER_MIN_MULTIPLIER` in `.env` or widen `OUTLIER_LOOKBACK_DAYS`,
+   retry once.
 
-2. **Intro Dissector** — run the `intro-dissector` skill on the outliers file →
-   `data/daily/<date>_dissected.json`.
+1b. **Trend Scout — discovery:** find small creators NOT on the watchlist:
+   ```
+   node skills/trend-scout/scripts/discover_youtube_outliers.mjs
+   ```
+   Produces `data/daily/<date>_discovered_outliers.json` (already tagged `source: discovered`
+   with `vsRatio`). On the free Apify tier this may be skipped some days to conserve credits
+   — if it errors on budget, note it and continue with watchlist outliers only.
+
+2. **Intro Dissector** — run the `intro-dissector` skill on BOTH outlier files (merge them,
+   keep the `source` tag) → `data/daily/<date>_dissected.json`.
 
 3. **Packaging Strategist** — run the `packaging-strategist` skill on the dissected file →
    `data/daily/<date>_packaged.json` (the two-column deliverable).

@@ -9,12 +9,15 @@
     { "handle": "@michaelsaruggia", "tier": "peer" },
     { "handle": "@benjaminaaronreed", "tier": "peer" }
   ],
+  "_search_note": "Long-tail, on-lane terms surface SMALL on-niche creators (broad terms like 'ai news' only return mega-channels and get filtered out by discovery).",
   "search_terms": [
-    "ai agency",
-    "ai automation business",
-    "ai agents tutorial",
-    "n8n automation",
-    "how to use ai",
-    "ai news"
+    "recruitment agency outbound",
+    "ai recruiting automation",
+    "clay outbound",
+    "cold email agency clients",
+    "gtm engineer",
+    "n8n lead generation",
+    "ai automation agency clients",
+    "how to get recruitment clients"
   ]
 }

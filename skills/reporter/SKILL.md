@@ -23,6 +23,7 @@ For each packaged item, create one Notion page (row) in that database with prope
 - **Date** (today)
 - **Outlier title** (Column A title) + **URL**
 - **Channel** + **Subs** + **Multiplier** (e.g. "8.2×") + **Views**
+- **Source** (watchlist / discovered) + **V/S Ratio** (for discovered items)
 - **Hook formula** (from Dissector)
 - **Title — As-is** / **Title — Suhaib** (the recommended options)
 - **Intro — Suhaib** (the rewritten hook; full script in page body if present)
