@@ -47,10 +47,12 @@ A short chat summary: # outliers, top pick + multiplier, # of `yes` recommendati
 pending keys).
 
 ## Cost note
-Apify is on the FREE $5/mo plan. Each full run scrapes 6 channels + a handful of
-transcripts. If credits run low, reduce `--per` and `--top` on the Scout step. The
-analysis/writing steps (Dissector → Reporter) use Claude + already-connected MCPs — no
-extra cost.
+Apify is on the FREE $5/mo plan. To stay under it, the **automated schedule splits the
+work**: `content-studio-daily` runs the WATCHLIST scout every day (~9 AM); discovery runs
+SEPARATELY as `content-studio-discovery-weekly` (Mondays ~9 AM). This `daily-run` skill is
+for **manual** full runs — if you run it by hand and want both, it'll do both; on the free
+tier, run discovery sparingly. The analysis/writing steps (Dissector → Reporter) use Claude
++ already-connected MCPs — no extra cost.
 
 ## Notes
 - Thumbnail Studio, Editor, Publisher are not in this pipeline yet (pending API keys).
